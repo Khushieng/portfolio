@@ -1,11 +1,13 @@
-const toggle = document.getElementById("theme-toggle");
+const themeBtn = document.getElementById("theme-toggle");
 
-toggle.addEventListener("click", () => {
+themeBtn.addEventListener("click", () => {
+
     document.body.classList.toggle("dark");
 
     if(document.body.classList.contains("dark")){
-        toggle.textContent="☀️";
+        themeBtn.textContent = "☀️";
     }else{
-        toggle.textContent="🌙";
+        themeBtn.textContent = "🌙";
     }
+
 });

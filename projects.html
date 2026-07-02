@@ -1,13 +1,13 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Projects | John Doe</title>
+<title>Projects | Portfolio</title>
 
-<meta name="description" content="Portfolio projects by John Doe.">
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
 
 </head>
 
@@ -15,42 +15,62 @@
 
 <header>
 
-<nav aria-label="Primary Navigation">
+<h1>John Doe</h1>
+
+<nav>
 <ul>
 <li><a href="index.html">Home</a></li>
 <li><a href="about.html">About</a></li>
-<li><a href="projects.html" aria-current="page">Projects</a></li>
+<li><a href="projects.html">Projects</a></li>
 <li><a href="contact.html">Contact</a></li>
 </ul>
 </nav>
+
+<button id="theme-toggle">🌙</button>
 
 </header>
 
 <main>
 
-<section aria-labelledby="projects-heading">
+<section>
 
-<h1 id="projects-heading">Projects</h1>
+<h2 style="text-align:center;padding:40px 0;">
+My Projects
+</h2>
 
-<article>
+<div class="grid">
 
-<h2>Portfolio Website</h2>
+<div class="card">
+<h3>Portfolio Website</h3>
+<p>Responsive portfolio built using HTML5, CSS3 and JavaScript.</p>
+</div>
 
-<p>
-Responsive portfolio developed with semantic HTML5 and CSS.
-</p>
+<div class="card">
+<h3>Landing Page</h3>
+<p>Modern responsive landing page using Flexbox.</p>
+</div>
 
-</article>
+<div class="card">
+<h3>Student Management</h3>
+<p>Simple CRUD web application with responsive UI.</p>
+</div>
 
-<article>
+<div class="card">
+<h3>Weather App</h3>
+<p>Weather application using JavaScript API.</p>
+</div>
 
-<h2>Task Manager</h2>
+<div class="card">
+<h3>E-Commerce UI</h3>
+<p>Online shopping interface built with CSS Grid.</p>
+</div>
 
-<p>
-Full-stack productivity application.
-</p>
+<div class="card">
+<h3>Blog Website</h3>
+<p>Responsive blog template with modern layout.</p>
+</div>
 
-</article>
+</div>
 
 </section>
 
@@ -58,7 +78,7 @@ Full-stack productivity application.
 
 <footer>
 
-<p>&copy; 2026 John Doe</p>
+<p>© 2026 John Doe. All Rights Reserved.</p>
 
 </footer>
 
